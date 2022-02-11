@@ -1,4 +1,4 @@
-const API_URL = process.env.REACT_APP_API_URL;
+import { API_URL } from '../config';
 
 export function getTweets() {
   return fetch(`${API_URL}/tweets`)

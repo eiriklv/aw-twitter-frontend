@@ -1,4 +1,4 @@
-const API_URL = 'http://localhost:3333';
+import { API_URL } from '../config';
 
 export async function getLoginToken({ username, password }) {
   return fetch(`${API_URL}/login`, {
